@@ -1,0 +1,16 @@
+.card-title{
+    font-size: 50px;
+    
+}
+img{
+    width: 100%;
+    height: 100vh;
+}
+@media (max-width:640px) {
+    .texts{
+    margin-top: 50px;
+    }
+    .texts h5{
+        font-size: 30px;
+    }
+}
