@@ -2,7 +2,6 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   position: fixed;
@@ -120,7 +119,10 @@
   }
 }
 
-
+  .navlinks{
+    display: flex;
+    justify-content: space-around;
+  }
 @media (max-width:640px) {
   .navlinks{
     display: flex;
