@@ -5,12 +5,12 @@ const Navbar = () => {
   return (
     <>
      <div className="nav">
-      <h3 className="logo">Veer-Travels</h3>
+      <h3 className="logo"></h3>
         <div className="navlinks">
             <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/hotel" className="nav-link">Hotel</Link>
-          <Link to="/contact" className="nav-link">Contact</Link>
+          <Link to="/CarRentals" className="nav-link">Car Rentals</Link>
         </div>
      </div>
     </>

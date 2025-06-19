@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Hotel from './components/Hotel/Hotel'
 import Footer from './components/Footer/Footer'
+import CarRentals from './components/CarRentals/CarRentals'
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/hotel" element={<Hotel />} />
+          <Route path="/CarRentals" element={<CarRentals />} />
         </Routes>
         <Footer />
       </div>

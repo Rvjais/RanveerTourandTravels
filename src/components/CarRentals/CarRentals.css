@@ -1,0 +1,12 @@
+.cars{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    
+}
+.car{
+    height: 300px;
+    width: 400px;
+    
+    
+}

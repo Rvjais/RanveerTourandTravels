@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                Veer-Travels
+                Sangam Tour & Travels
               </h2>
               <p className="text-slate-300 mt-3 leading-relaxed">
                 Your trusted travel companion for unforgettable journeys.
@@ -136,7 +136,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
             {/* Copyright */}
             <div className="text-slate-400 text-center lg:text-left">
-              <p>&copy; 2025 Veer-Travels. All rights reserved.</p>
+              <p>&copy; 2025 Sangam Tour & Travels. All rights reserved.</p>
             </div>
 
             {/* Social Media */}
