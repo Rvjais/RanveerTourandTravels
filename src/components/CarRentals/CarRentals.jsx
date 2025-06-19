@@ -17,8 +17,6 @@ const CarRentals = () => {
         <img src={car2} alt="" className="car" />
     </div>
     </div>
-  
-    
     </>
   )
 }
