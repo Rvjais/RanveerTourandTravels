@@ -1,12 +1,36 @@
+
+.body{
+    background-color: azure;
+}
 .cars{
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    
     
 }
 .car{
     height: 300px;
     width: 400px;
+}
+
+
+.leftcars{
+    position: relative;
+    justify-content: end;
     
+}
+
+
+@media (max-width: 640px) {
+.cars{
+    display: flex;
+    flex-direction: row;
+ 
     
+}
+.car{
+    height: 300px;
+    width: 50%;
+    
+}
 }

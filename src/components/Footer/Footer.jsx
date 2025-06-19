@@ -17,7 +17,7 @@ const Footer = () => {
     prompt = "popUP";
   }
   return (
-    <footer className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white">
+    <footer className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white ">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">

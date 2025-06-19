@@ -70,6 +70,7 @@ footer {
   gap: 0.5rem;
 }
 
+
 /* Responsive grid */
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
