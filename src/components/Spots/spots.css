@@ -1,4 +1,61 @@
 .tourimg{
-    height: auto;
-    width: auto;
+    height: 600px;
+    width: 700px;
+    scale: 0.95;
+    border-radius: 10px;
+}
+
+
+.imgcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    height: inherit;
+    
+}
+.name{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    background-color: azure;
+    display: block;
+    border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     width: 700px;
+}
+p{
+    position: relative;
+    top: 50%;
+}
+.right{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+@media (max-width: 1000px) {
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media (max-width: 425px){
+.tourimg{
+    height: 400px;
+    width: 400px;
+    scale: 0.9;
+    border-radius: 10px;
+}
+.name{
+width: 330px;
 }
